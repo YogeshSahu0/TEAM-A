@@ -1,0 +1,18 @@
+uuid: 26d3254a-bed4-4beb-b54f-da15ad093926
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'ABOUT US'
+type: about_us
+description: 'about us'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

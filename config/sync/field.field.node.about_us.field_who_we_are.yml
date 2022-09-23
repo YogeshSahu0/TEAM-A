@@ -1,0 +1,23 @@
+uuid: 4a7571eb-59ae-4bc2-9bb3-9e581daf6621
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_who_we_are
+    - node.type.about_us
+  module:
+    - link
+id: node.about_us.field_who_we_are
+field_name: field_who_we_are
+entity_type: node
+bundle: about_us
+label: 'who we are'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

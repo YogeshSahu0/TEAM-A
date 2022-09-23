@@ -1,0 +1,159 @@
+uuid: 45f59c1f-bb67-4a88-8683-9cdafcea07da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.about_us.body
+    - field.field.node.about_us.field_about_title
+    - field.field.node.about_us.field_annual_report
+    - field.field.node.about_us.field_our_governance
+    - field.field.node.about_us.field_our_inclusion
+    - field.field.node.about_us.field_our_mission
+    - field.field.node.about_us.field_slogan
+    - field.field.node.about_us.field_what_we_do
+    - field.field.node.about_us.field_who_we_are
+    - field.field.node.about_us.field_who_we_serve
+    - node.type.about_us
+  module:
+    - link
+    - path
+    - text
+id: node.about_us.default
+targetEntityType: node
+bundle: about_us
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_about_title:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_annual_report:
+    type: link_default
+    weight: 130
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_our_governance:
+    type: link_default
+    weight: 128
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_our_inclusion:
+    type: link_default
+    weight: 129
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_our_mission:
+    type: link_default
+    weight: 127
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_slogan:
+    type: text_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_what_we_do:
+    type: link_default
+    weight: 125
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_who_we_are:
+    type: link_default
+    weight: 124
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_who_we_serve:
+    type: link_default
+    weight: 126
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

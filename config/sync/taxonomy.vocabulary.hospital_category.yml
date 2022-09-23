@@ -1,0 +1,8 @@
+uuid: c14f245f-e9a9-4b0e-ad7e-a9188aa04265
+langcode: en
+status: true
+dependencies: {  }
+name: 'hospital category'
+vid: hospital_category
+description: ''
+weight: 0
