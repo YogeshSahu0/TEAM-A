@@ -1,0 +1,23 @@
+uuid: e7435bda-b6ec-4dc2-a49e-2a65c34ba300
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_annual_report
+    - node.type.about_us
+  module:
+    - link
+id: node.about_us.field_annual_report
+field_name: field_annual_report
+entity_type: node
+bundle: about_us
+label: 'annual report'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

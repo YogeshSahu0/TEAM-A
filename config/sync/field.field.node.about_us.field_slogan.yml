@@ -1,0 +1,21 @@
+uuid: 727ef234-a330-46af-a2cb-5927675a62b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slogan
+    - node.type.about_us
+  module:
+    - text
+id: node.about_us.field_slogan
+field_name: field_slogan
+entity_type: node
+bundle: about_us
+label: slogan
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

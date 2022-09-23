@@ -1,0 +1,23 @@
+uuid: 64416f1a-c684-473e-9780-39a0b16f6d04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_our_mission
+    - node.type.about_us
+  module:
+    - link
+id: node.about_us.field_our_mission
+field_name: field_our_mission
+entity_type: node
+bundle: about_us
+label: 'our mission'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

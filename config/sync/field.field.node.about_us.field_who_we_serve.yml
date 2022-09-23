@@ -1,0 +1,23 @@
+uuid: 8e3bb947-5823-4d7d-9b58-81553b1c06f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_who_we_serve
+    - node.type.about_us
+  module:
+    - link
+id: node.about_us.field_who_we_serve
+field_name: field_who_we_serve
+entity_type: node
+bundle: about_us
+label: 'Who we serve'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
